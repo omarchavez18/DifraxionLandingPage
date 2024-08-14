@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- EMAIL.JS -->
+    <script
+      <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      emailjs.init('b6KbROCCTWNnGx1Px')
+    </script>
+    <title>Difraxion</title>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="header__logoSection">
+        <img
+          class="header__logoSection__img"
+          src="images/difraxionLogo.webp"
+          alt="difraxion logo"
+        />
+      </section>
+      <section class="header__titleSection">
+        <p class="header__titleSection__p">
+          #SomosLa<span class="header__titleSection__span">Conexión</span
+          >ATusIdeas
+        </p>
+      </section>
+    </header>
+
+    <div class="TextDiv">
+      <p>
+        En <b class="TextDiv__b">Difraxion</b> tenemos mas de
+        <b class="TextDiv__b">15 años de experiencia</b> trabajando con
+        <br />
+        empresas del sector público y privado. a los cuales les ofrecemos <br />
+        proyectos a la medida de sus necesidades.
+      </p>
+
+      <p>
+        Somos expertos en
+        <b
+          >potencializar tus ideas y conectar con ellas a través <br />
+          de nuestras soluciones</b
+        >
+        de comunicación interna.
+      </p>
+    </div>
+
+    <div class="dotGrid" id="dotGrid"></div>
+    <div class="dotGrid2" id="dotGrid2"></div>
+
+    <div class="principalContainer" id="principalContainer">
+      <section>
+        <h1 class="principalContainer__title">
+          REG<span class="principalContainer__title__span">IS</span>TRO
+        </h1>
+      </section>
+
+      <!-- FORM -->
+      <form action="" class="principalContainer__form" id="form">
+        <div class="principalContainer__form__container">
+          <div class="principalContainer__form__div">
+            <section class="principalContainer__form__div__section">
+              <label
+                class="principalContainer__form__div__section__label"
+                for="from_name"
+                ><p class="principalContainer__form__div__section__label__p">
+                  Nombre
+                  <span
+                    class="principalContainer__form__div__section__label__span"
+                    >*</span
+                  >
+                </p>
+              </label>
+              <input
+                name="from_name"
+                id="from_name"
+                class="principalContainer__form__div__section__input"
+                type="text"
+                placeholder="John"
+                required
+              />
+            </section>
+
+            <section class="principalContainer__form__div__section">
+              <label
+                class="principalContainer__form__div__section__label"
+                for="from_tel"
+                ><p class="principalContainer__form__div__section__label__p">
+                  Telefono
+                  <span
+                    class="principalContainer__form__div__section__label__span"
+                    >*</span
+                  >
+                </p></label
+              >
+              <input
+                name="from_tel"
+                id="from_tel"
+                class="principalContainer__form__div__section__input"
+                type="text"
+                placeholder="John"
+                required
+              />
+            </section>
+          </div>
+
+          <div class="principalContainer__form__div">
+            <section class="principalContainer__form__div__section">
+              <label
+                class="principalContainer__form__div__section__label"
+                for="email_id"
+                ><p class="principalContainer__form__div__section__label__p">
+                  Email
+                  <span
+                    class="principalContainer__form__div__section__label__span"
+                    >*</span
+                  >
+                </p></label
+              >
+              <input
+                name="email_id"
+                id="email_id"
+                class="principalContainer__form__div__section__input"
+                type="email"
+                placeholder="Johndoe@email.com"
+                required
+              />
+            </section>
+
+            <section class="principalContainer__form__div__section">
+              <label
+                class="principalContainer__form__div__section__label"
+                for="city"
+                ><p class="principalContainer__form__div__section__label__p">
+                  Ciudad
+                  <span
+                    class="principalContainer__form__div__section__label__span"
+                    >*</span
+                  >
+                </p></label
+              >
+              <input
+                id="city"
+                name="city"
+                class="principalContainer__form__div__section__input"
+                type="text"
+                placeholder="Johndoe@email.com"
+                required
+              />
+            </section>
+          </div>
+        </div>
+        <input
+          class="principalContainer__form__button"
+          onclick="showVideo()"
+          type="submit"
+          id="button"
+          value="ENVIAR"
+        />
+      </form>
+    </div>
+
+    <div class="dotGrid3" id="dotGrid3"></div>
+
+    <!-- VIDEO -->
+    <div class="principalContainer__videoContainer" id="videoContainer">
+      <iframe
+        class="principalContainer__videoContainer__video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/oWJLAoLM8XY?si=gkd2oWaNsG8ZcxQx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- STAFF SECTION -->
+    <section class="staffSectionContainer">
+      <div class="staffSectionContainer__subtitle">
+        <h2 style="font-weight: 600">
+          <p>
+            <b>POTENCIALIZA</b> <br />
+            <span class="staffSectionContainer__subtitle__span"
+              >TU COMUNICACIÓN <br />INTERNA.</span
+            >
+          </p>
+        </h2>
+      </div>
+
+      <div id="shadowContainer">
+        <p class="shadowContainer__p">COMUNICACIÓN INTERNA</p>
+        <p class="shadowContainer__p">COMUNICACIÓN INTERNA</p>
+        <p class="shadowContainer__p">COMUNICACIÓN INTERNA</p>
+      </div>
+
+      <!-- STAFF -->
+      <div class="staffSectionContainer__staff">
+        <section>
+          <div class="staffSectionContainer__staff__FirstCircle">
+            <div class="staffSectionContainer__staff__SecondCircle">
+              <img
+                src="./images/man.webp"
+                alt="David Enriquez"
+                class="staffSectionContainer__staff__SecondCircle__img"
+              />
+            </div>
+          </div>
+
+          <div class="staffSectionContainer__staff__info">
+            <h3 style="margin: 0; font-weight: 500"><b>DAVID ENRIQUEZ</b></h3>
+            <p style="margin: 0">Director General</p>
+            <p style="margin: 0">Difraxion</p>
+          </div>
+        </section>
+
+        <section>
+          <div class="staffSectionContainer__staff__FirstCircle">
+            <div class="staffSectionContainer__staff__SecondCircle">
+              <img
+                src="./images/woman.webp"
+                alt="Andrea Huerta"
+                class="staffSectionContainer__staff__SecondCircle__img"
+              />
+            </div>
+          </div>
+
+          <div class="staffSectionContainer__staff__info">
+            <h3 style="margin: 0; font-weight: 500"><b>ANDREA HUERTA</b></h3>
+            <p style="margin: 0">Gerente de proyectos</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <div class="dotGrid4" id="dotGrid4"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__logoContainer">
+        <a href="#">
+          <img
+            style="width: 100%"
+            src="images/difraxionLogo.webp"
+            alt="difraxion logo"
+          />
+        </a>
+      </div>
+
+      <p class="footer__text">
+        © Difraxion is a registred licensed by Difraxion.
+      </p>
+
+      <section class="footer__iconsContainer">
+        <a href="https://www.facebook.com/difraxiongroup/" target="_blank">
+          <div class="footer__iconsContainer__imgContainer">
+            <img
+              class="footer__iconsContainer__imgContainer__img"
+              src="./images/icons/facebookIcon.png"
+              alt="facebook"
+            />
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/difraxiongroup/" target="_blank">
+          <div class="footer__iconsContainer__imgContainer">
+            <img
+              class="footer__iconsContainer__imgContainer__img"
+              src="./images//icons/instagramIcon.webp"
+              alt="instagram"
+            />
+          </div>
+        </a>
+
+        <a href="https://x.com/soydifraxion?mx=2" target="_blank">
+          <div class="footer__iconsContainer__imgContainer">
+            <img
+              class="footer__iconsContainer__imgContainer__img"
+              src="./images/icons/twitterIcon.png"
+              alt="twitter"
+            />
+          </div>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/difraxion-group/"
+          target="_blank"
+        >
+          <div class="footer__iconsContainer__imgContainer">
+            <img
+              class="footer__iconsContainer__imgContainer__img"
+              src="./images/icons/linkedinIcon.png"
+              alt="linkedin"
+            />
+          </div>
+        </a>
+      </section>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
