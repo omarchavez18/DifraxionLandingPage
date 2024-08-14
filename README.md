@@ -1,11 +1,12 @@
 # DIFRAXION LANDING PAGE
 > Website built for "DIFRAXION"
->[![Netlify Status](https://api.netlify.com/api/v1/badges/a43519a1-6920-4df8-a0b0-d57e890571e5/deploy-status)](https://app.netlify.com/sites/racksguermar/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a03cccab-a822-472c-9c82-c9d19c2a1f7f/deploy-status)](https://app.netlify.com/sites/difraxionlandingpage/deploys)
 
 
 
 To see the difraxion landing page click on the next link
-[DIFRAXION](https://racksguermar.netlify.app)
+
+[DIFRAXION](https://difraxionlandingpage.netlify.app)
 
 
 
